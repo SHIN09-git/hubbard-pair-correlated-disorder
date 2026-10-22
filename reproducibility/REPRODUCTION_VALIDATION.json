@@ -1,0 +1,89 @@
+{
+  "started_utc": "2026-10-13T17:36:10.440267+00:00",
+  "finished_utc": "2026-10-13T17:36:40.025603+00:00",
+  "status": "PASS",
+  "scope": "Saved-data reconstruction and bounded structural checks; no new trajectories.",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26100-SP0",
+  "files_verified": 898,
+  "input_mismatches": [],
+  "tables_comparison": {
+    "groups": 41,
+    "paired_comparisons": 10,
+    "endpoint_branches": 3,
+    "rtol": 1e-10,
+    "atol": 1e-12,
+    "mismatches": []
+  },
+  "posthoc_comparison": {
+    "rtol": 1e-10,
+    "atol": 1e-12,
+    "mismatches": []
+  },
+  "kernel_25_error": {
+    "points": 25,
+    "maximum_relative": 6.895609724768466e-05,
+    "threshold": 7e-05
+  },
+  "wall_seconds": 29.586116400081664,
+  "parent_process_cpu_seconds": 0.21875,
+  "steps": [
+    {
+      "name": "tables",
+      "exit_code": 0,
+      "wall_seconds": 18.219707199954428,
+      "process_cpu_seconds": 0.015625,
+      "cpu_scope": "Direct child only; not a total including descendants."
+    },
+    {
+      "name": "posthoc",
+      "exit_code": 0,
+      "wall_seconds": 1.8358094999566674,
+      "process_cpu_seconds": 0.0,
+      "cpu_scope": "Direct child only; not a total including descendants."
+    },
+    {
+      "name": "tests",
+      "exit_code": 0,
+      "wall_seconds": 1.0980968000367284,
+      "process_cpu_seconds": 0.015625,
+      "cpu_scope": "Direct child only; not a total including descendants."
+    },
+    {
+      "name": "kernel_25",
+      "exit_code": 0,
+      "wall_seconds": 3.5859216999961063,
+      "process_cpu_seconds": 0.0,
+      "cpu_scope": "Direct child only; not a total including descendants."
+    },
+    {
+      "name": "refined_resolvent",
+      "exit_code": 0,
+      "wall_seconds": 1.4854473000159487,
+      "process_cpu_seconds": 0.015625,
+      "cpu_scope": "Direct child only; not a total including descendants."
+    },
+    {
+      "name": "finite_time",
+      "exit_code": 0,
+      "wall_seconds": 0.8201879999833182,
+      "process_cpu_seconds": 0.015625,
+      "cpu_scope": "Direct child only; not a total including descendants."
+    },
+    {
+      "name": "higher_order_support",
+      "exit_code": 0,
+      "wall_seconds": 0.2695898999227211,
+      "process_cpu_seconds": 0.015625,
+      "cpu_scope": "Direct child only; not a total including descendants."
+    },
+    {
+      "name": "figures",
+      "exit_code": 0,
+      "wall_seconds": 1.9993337000487372,
+      "process_cpu_seconds": 0.0,
+      "cpu_scope": "Direct child only; not a total including descendants."
+    }
+  ],
+  "note": "Validation ran the frozen scientific inputs and the same reproduction code, before documentation-only filename corrections and adding this validation summary. Final archive integrity is checked separately. No new dynamics."
+}

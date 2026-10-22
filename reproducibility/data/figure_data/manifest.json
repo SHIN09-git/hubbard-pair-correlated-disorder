@@ -1,0 +1,25 @@
+{
+  "inputs": {
+    "results/analysis/20261013T071959Z/summary.json": "7033520ad6a2375d5b5d0b7eb8413dd3de045289126609ab1527df808955708f",
+    "results/sample_diagnostic/20261013T072213Z/summary.json": "2e089f5e9e2539a6a7b9534fe07b77f9de4a41f7253e33025f7dec417de87ce5",
+    "results/theory_audit/closed_kernel_initial.json": "6a4282a13bf80ea0f7d732a2e7fc1381e9387c02cbf92e5f5c6f6f36f9d7cb57",
+    "results/leakage/20261013T072350Z/manifest.json": "e4be2f580c1d5891eddc3a57a85e9996ab0cd8c851ee5bc96a1587512325d6c6"
+  },
+  "source": {
+    "tools/export_figure_data.py": "9dfc1c9e66f32743bfea4377ee72a8945bc5df4f095014f85c6efc0b0a0ccfbe",
+    "make_figures.py": "3faa64aaa796446e5c4c93248b813ff7ad6d26ad30bda47c57b774ca04306bbd",
+    "src/physics.py": "16ee9c715c4de191c0dcf03f5ce2803a1a2ff01fe8fbc5e80e063173de03fecc"
+  },
+  "outputs": {
+    "01_phase_grid.npz": "4f3e548ff8b4065e8031c814473f6e6a3652ba2e8b7eed61bc44bb5aba463a1e",
+    "01_boundaries.csv": "64ab96e7260c03d764ba0bfaf331b9983b6364cb58c6d6cb9d2fc6ea60017167",
+    "01_rates.csv": "40118f9dbe1cd32c0c29a78d35a1e438a3233b9c8ebece029fe052a31ff27f72",
+    "02_slopes.csv": "d3160d13ee1db5fda07c3778538ad568fd014b58b5c9dae3562c01ece2bd52ce",
+    "02_curves.csv": "a405e2e64314dd501f02423ecff16c09b0542791d86536e449f2524d48acf099",
+    "03_endpoints.csv": "4b938d48732aa05bf95a7f6940f1ff0803bb5254ad1147c7c0b91a74b6a399a0",
+    "04_leakage_formula.csv": "526b9c93327dfb4b07feabb07f3741119a564292cf8ab8b436575d507b698a59",
+    "04_leakage_curves.csv": "8dda022c28b2c34c3aaaabfd949159e7c48e95e5ebacd0ea04f366ae99bf15a2",
+    "all_group_statistics.csv": "c573e31d397a25dbf14e7362da3f9486e1a46d8ffebdbced94ee49b82289b50f",
+    "paired_comparisons.csv": "4408195faa3637f16c6eeb3e57a262f9fb9964ab20bc6f6f54b2ac7ea1d6afcd"
+  }
+}

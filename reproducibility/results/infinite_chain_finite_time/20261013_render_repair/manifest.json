@@ -1,0 +1,54 @@
+{
+  "started_utc": "2026-10-13T15:09:19.296785+00:00",
+  "role": "exploratory_post_hoc_deterministic_quadrature",
+  "argv": [
+    "G:/科研/wuli/PHY-PAIR-02/tools/infinite_chain_finite_time.py",
+    "--output",
+    "G:/科研/wuli/PHY-PAIR-02/results/infinite_chain_finite_time/20261013_render_repair"
+  ],
+  "cwd": "G:\\codexhome\\.chatgpt-projects\\g-p-6ac93fae7c008191be70e703cabfb1c9",
+  "config": {
+    "role": "exploratory_post_hoc_deterministic_quadrature",
+    "J": 1.0,
+    "U": 2.0,
+    "K_over_pi": 0.75,
+    "gap_fraction": 0.8,
+    "window": [
+      12.0,
+      24.0
+    ],
+    "time_step": 2.0,
+    "quadrature_orders": [
+      64,
+      128,
+      256
+    ],
+    "seed": null,
+    "seed_reason": "No random samples: infinite-chain ensemble-averaged second-order integral.",
+    "reference_time_file": "results/confirmation/20261013T071820Z/N256_U2.0_W0.04_f0.8_variance_s100031.json",
+    "convergence_absolute_tolerance": 1e-08,
+    "note": "Fixed original OLS window and original discrete time points. No new dynamics or change to the frozen estimator."
+  },
+  "seed": null,
+  "input_hashes": {
+    "configs/infinite_chain_finite_time_v1.json": "ef64fb0c562820125764a4d11a9c39521094e80cfaefdd15b91de54b01b11c8c",
+    "results/confirmation/20261013T071820Z/N256_U2.0_W0.04_f0.8_variance_s100031.json": "e0b52c48ccd46ad9321bd5a238cd276d3f034041219abdcd5feaf6e929f80d65"
+  },
+  "source": {
+    "file": "tools/infinite_chain_finite_time.py",
+    "sha256": "ae9bcc34458754fb8445f68e38c543a156d3cf39e6e6e993749ea37e31dbf302"
+  },
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "G:\\科研\\wuli\\PHY-PAIR-02\\.venv\\Scripts\\python.exe",
+    "numpy": "2.3.5",
+    "scipy": "1.18.1",
+    "platform": "Windows-11-10.0.26100-SP0",
+    "cpu_count": 16
+  },
+  "status": "PASS",
+  "finished_utc": "2026-10-13T15:09:19.467981+00:00",
+  "wall_seconds": 0.1717178999679163,
+  "process_cpu_seconds": 0.171875,
+  "exit_code": 0
+}

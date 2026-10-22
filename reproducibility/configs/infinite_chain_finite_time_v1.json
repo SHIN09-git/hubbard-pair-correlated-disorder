@@ -1,0 +1,15 @@
+{
+  "role": "exploratory_post_hoc_deterministic_quadrature",
+  "J": 1.0,
+  "U": 2.0,
+  "K_over_pi": 0.75,
+  "gap_fraction": 0.8,
+  "window": [12.0, 24.0],
+  "time_step": 2.0,
+  "quadrature_orders": [64, 128, 256],
+  "seed": null,
+  "seed_reason": "No random samples: infinite-chain ensemble-averaged second-order integral.",
+  "reference_time_file": "results/confirmation/20261013T071820Z/N256_U2.0_W0.04_f0.8_variance_s100031.json",
+  "convergence_absolute_tolerance": 1e-8,
+  "note": "Fixed original OLS window and original discrete time points. No new dynamics or change to the frozen estimator."
+}

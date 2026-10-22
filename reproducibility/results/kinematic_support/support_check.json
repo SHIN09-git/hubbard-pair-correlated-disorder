@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "scope": "Support geometry and cyclic convolution; no amplitude or rate calculation.",
+  "J": 1.0,
+  "U": 3.5,
+  "K_over_pi": 0.75,
+  "E": 3.8200976100759023,
+  "Q_over_pi": 0.19165709580298865,
+  "Omega_over_pi": [
+    -0.9416570958029887,
+    -0.5583429041970113
+  ],
+  "odd_positive_measure_threshold_over_pi": 0.05834290419701135,
+  "even_positive_measure_threshold_over_pi": 0.5583429041970113,
+  "cases": [
+    {
+      "q0_over_pi": 0.95,
+      "first_kinematically_allowed_amplitude_order": 3,
+      "conditional_candidate_rate_power": 6,
+      "nonzero_amplitude_proven": false
+    },
+    {
+      "q0_over_pi": 0.97,
+      "first_kinematically_allowed_amplitude_order": 3,
+      "conditional_candidate_rate_power": 6,
+      "nonzero_amplitude_proven": false
+    },
+    {
+      "q0_over_pi": 0.99,
+      "first_kinematically_allowed_amplitude_order": 7,
+      "conditional_candidate_rate_power": 14,
+      "nonzero_amplitude_proven": false
+    }
+  ],
+  "grid": 65536,
+  "convolution": [
+    {
+      "insertions": 1,
+      "mass_in_clean_open_arc": -6.509664268773704e-17,
+      "minimum_roundoff": -1.6263032587282567e-19
+    },
+    {
+      "insertions": 2,
+      "mass_in_clean_open_arc": -6.745434205216884e-17,
+      "minimum_roundoff": -1.0842021724855044e-19
+    },
+    {
+      "insertions": 3,
+      "mass_in_clean_open_arc": 0.02456302839216675,
+      "minimum_roundoff": -1.0842021724855044e-19
+    }
+  ],
+  "equality_rule": "Strict > for positive-measure overlap; equality is endpoint contact, established analytically, not by the floating-point grid."
+}

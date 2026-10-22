@@ -1,0 +1,28 @@
+{
+  "started_utc": "2026-10-13T15:42:07.322467+00:00",
+  "role": "exploratory_manuscript_verification",
+  "argv": [
+    "checks/verify_manuscript.py",
+    "--output",
+    "checks/results/20261014_v1"
+  ],
+  "cwd": "G:\\\u79d1\u7814\\wuli\\PHY-PAIR-02\\manuscript_en\\v1_jpa",
+  "seed": 20261014,
+  "source": {
+    "file": "checks/verify_manuscript.py",
+    "sha256": "2884a47df9d84ced265bf3648675a168447cc18c7042405bafbc4370adbd9635"
+  },
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "G:\\\u79d1\u7814\\wuli\\PHY-PAIR-02\\.venv\\Scripts\\python.exe",
+    "numpy": "2.3.5",
+    "scipy": "1.18.1",
+    "platform": "Windows-11-10.0.26100-SP0",
+    "cpu_count": 16
+  },
+  "status": "PASS",
+  "finished_utc": "2026-10-13T15:42:10.364512+00:00",
+  "wall_seconds": 2.9948531000409275,
+  "process_cpu_seconds": 2.9375,
+  "exit_code": 0
+}

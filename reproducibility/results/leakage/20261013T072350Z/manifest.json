@@ -1,0 +1,107 @@
+{
+  "status": "PASS",
+  "source_sha256": {
+    "run_leakage.py": "4a3675042be4f7823e4c35b7f35bddd16a490ba6de063c23bd24264e4ff84ad4",
+    "run_confirmation.py": "ae37a66359ebaec5ebb024bcbc45a709542ca2e480f4440061ccca4b0de50b40",
+    "src\\physics.py": "16ee9c715c4de191c0dcf03f5ce2803a1a2ff01fe8fbc5e80e063173de03fecc",
+    "notes\\G3_LEAKAGE_PROTOCOL.md": "09b49bf5f3ccf97d81a151ce099480ed67116e6446d6d16a09d618994c832be1"
+  },
+  "command": [
+    "run_leakage.py"
+  ],
+  "trajectories": 48,
+  "wall_seconds": 25.836478799930774,
+  "parent_cpu_seconds": 0.0625,
+  "worker_cpu_seconds": 99.40625,
+  "analytic": [
+    {
+      "epsilon": 0.0,
+      "c": 0.0,
+      "relative_to_white": 0.0
+    },
+    {
+      "epsilon": 0.001,
+      "c": 0.003740158252465286,
+      "relative_to_white": 0.03228931223764934
+    },
+    {
+      "epsilon": 0.003,
+      "c": 0.010559042942465806,
+      "relative_to_white": 0.09115770282588878
+    },
+    {
+      "epsilon": 0.01,
+      "c": 0.02917700279064229,
+      "relative_to_white": 0.2518891687657431
+    },
+    {
+      "epsilon": 0.03,
+      "c": 0.058798325420735986,
+      "relative_to_white": 0.5076142131979695
+    }
+  ],
+  "diagnostics": [
+    {
+      "epsilon": 0.0,
+      "mean_curve_error": 0.009689227340161683
+    },
+    {
+      "epsilon": 0.003,
+      "mean_curve_error": 0.016003802322979585
+    },
+    {
+      "epsilon": 0.01,
+      "mean_curve_error": 0.0239906262370316
+    }
+  ],
+  "output_sha256": {
+    "epsilon0.003_seed200000.json": "a8652d8e040706c299d0484ac0193c8b3e4805101531e6c5de81ae8ec64fc7d3",
+    "epsilon0.003_seed200001.json": "f8b49b4d596aba511f2c598c46c622f7659d52e1f7f36b52e5f55c3bf4334614",
+    "epsilon0.003_seed200002.json": "e2f5bb37bec3db45d5101bcf8f94b1c2ffd9e24d30ccd407cc73a35a154ec2eb",
+    "epsilon0.003_seed200003.json": "2eddcf9e34e8475cf7acd68e775dbdff4e67261f2333501c468ac94af591fb6d",
+    "epsilon0.003_seed200004.json": "5d8de4e5f0c082304cf50b8db5db6b1fe4d582818d08ed53092ebed624293aec",
+    "epsilon0.003_seed200005.json": "1d18876768da754fd7eb5e7483a34eb06fa75eda3649e63779232ae406d975f6",
+    "epsilon0.003_seed200006.json": "d11c7c5e833d0cdb74df3882e6b0657d9cfddcab3149fcd451dd2055a4c3a9c6",
+    "epsilon0.003_seed200007.json": "35dfb995e3a62c24642b0d39689c2caacea1a76ac0c0dac151fd8d83555202c2",
+    "epsilon0.003_seed200008.json": "9f8d854a523a23b52f52743142e234aff14a3e07456433dfaa12228300dfe7ac",
+    "epsilon0.003_seed200009.json": "486a2f7123e32c55c4477361619758d1a943970e1e5dccca11c4032cdbeec48a",
+    "epsilon0.003_seed200010.json": "d824a3a3509c8ab95bd69f9c9c85a28283f0377374ebc8cdab182a869c778fb8",
+    "epsilon0.003_seed200011.json": "c33697f5f1de1311db40e6b47f59046ebfb7e4b65d3e4dcdac6f793f3d03e927",
+    "epsilon0.003_seed200012.json": "a51c0c8c9b6476412277f48b974da583d0509af21389a2dc4d2b5717ef2489f1",
+    "epsilon0.003_seed200013.json": "ca807472068c8bcbdb5ef320eb402c34eb5ae4b6c613a2decc9abc4bcf341aee",
+    "epsilon0.003_seed200014.json": "d2fadd040cd63e20fceb9bd428d832c6f5c74a2f2a144cc3e57ec64cb05b42b3",
+    "epsilon0.003_seed200015.json": "57751bb1a014bac31e1cfa77ec8ff203df7c258d2f41c98fefa67603ce579fce",
+    "epsilon0.01_seed200000.json": "bb30d03596784f9710b8f6d38a31fbdb5faa3e57a8b74d2b0570fef4b0db55e5",
+    "epsilon0.01_seed200001.json": "d64b4c4f50b67f9a34fe75ab7db021747b86c18f68f8e6c3e399d8ca657336e5",
+    "epsilon0.01_seed200002.json": "8a6aa3c6c737864ece6bad9c68ef7a34477508486bfb5d4e3f3e25dd91278269",
+    "epsilon0.01_seed200003.json": "9acadb5f520f7b8b04c3f06778c18de5372e5204e7389b7627d7411f5dbac746",
+    "epsilon0.01_seed200004.json": "cf0bab7e41fcc5edd11fee145a2bd84497934d6fe8e1a9032b320ef0fec00055",
+    "epsilon0.01_seed200005.json": "eebe8b46655e1d35e443690710c1cd1013360a5bb5edddaccf447eac3b4f2331",
+    "epsilon0.01_seed200006.json": "39dee2b6de079c018a61b32dce03078e3cfbca8c1350c566fcf8cfae4c7a0941",
+    "epsilon0.01_seed200007.json": "39b178358dce40a974d687907361b2eade12dc092d8a062e18280aaa660420df",
+    "epsilon0.01_seed200008.json": "eab94396d5d443d22c855f02fa2c8c10d3691baec42bb2cc4d05690f3d8824ae",
+    "epsilon0.01_seed200009.json": "6bbe8081d57e25d3df2a5e7fb9ce1f2fb810b58e2489ce806fada8634364230d",
+    "epsilon0.01_seed200010.json": "378ff783f841eafe29f226fd17d6ede32d139d6eb6b4672d8abc0165b96bbad5",
+    "epsilon0.01_seed200011.json": "7a5da808f3e9a9f20f8a50268f18045c261303d3ffe19ce19b4f61fb9d9f142f",
+    "epsilon0.01_seed200012.json": "6c5fc58b3aa923842984f627f1903306760d0c6913fd9c9991826830c4898a8d",
+    "epsilon0.01_seed200013.json": "b2ea53b7b5109ddc370436c41b7b2d423340c487a9b8a75b2b3ec56e5350c804",
+    "epsilon0.01_seed200014.json": "919e05b7b416c909f728d548ed50ebac22846d6bfdab120563f2c9fcdf9c7792",
+    "epsilon0.01_seed200015.json": "ec6a8ed9d2ae959446f8c2ed3c724db3d2c0da8b0f705e8cc35e2894ee007947",
+    "epsilon0.0_seed200000.json": "93e48c04d320c72613b2f75053e386cb4a9f2198a2f45eb006512702285ab306",
+    "epsilon0.0_seed200001.json": "5b04861cc1a17f20c86a2df7e698469ad6e66810e32d5f57045902139365f80f",
+    "epsilon0.0_seed200002.json": "227fbd32ae8bcded0502eb4b94182af524d1628ad71dd50f0ce7efe2e3c1b125",
+    "epsilon0.0_seed200003.json": "d838e408b55bc92f5911d6ee4f90d0b94f7971b4efd330f3e9bf6a7ea73b0558",
+    "epsilon0.0_seed200004.json": "f369e44dae587ce2b6b449b6a3f9bdfc9a8fbc5c6b0c7394f946652883dd602d",
+    "epsilon0.0_seed200005.json": "ca1f89a8075b651058b6d4e13e2cc62d36bcae22626df5375aacb93aac84cfc1",
+    "epsilon0.0_seed200006.json": "680bbe6de28f632532f489654dc0067e6ca5efb1b2b89cc55f96d2db3ae7c22d",
+    "epsilon0.0_seed200007.json": "a8c536d6cb8ec74fbacae982a32148882f14f6503dc5bee4149b8cee74e45e9b",
+    "epsilon0.0_seed200008.json": "81c7077ab8e9b1830da0e9c70a4862d4dff7ee87d28a3e0abf0e55741d4572f7",
+    "epsilon0.0_seed200009.json": "b10a51bb650797b0f5d403d7aeaae32782e0cdeffc3b5ab1dce16b952261ad69",
+    "epsilon0.0_seed200010.json": "7cb587241316c6576d6af6659f4d9ecf169c063e917c29dc9c01d885048f305c",
+    "epsilon0.0_seed200011.json": "2098405e0e0b68b447930fb0374e193b2930cb6abc2d673afff06f57ac057fbc",
+    "epsilon0.0_seed200012.json": "dea04ff68f545f9cd9cb40ae31efbaf5d892af18412fd9634c87e6e26c79829c",
+    "epsilon0.0_seed200013.json": "3cd718375ffd6c723ded32b6de09c1a0f443d83906542e8f1da25783ebce7b3c",
+    "epsilon0.0_seed200014.json": "925a570a360312cbac254da758a2e93f040c613c0411b5f8b9b94f2405e39f01",
+    "epsilon0.0_seed200015.json": "4233a820e4ed16154779c576e81d3020c6732cf9d49deb466fd44763a2ebbd6d"
+  }
+}

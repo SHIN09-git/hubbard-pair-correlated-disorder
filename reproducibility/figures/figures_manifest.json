@@ -1,0 +1,30 @@
+{
+  "source": {
+    "file": "figures/make_manuscript_figures.py",
+    "sha256": "463fabdf7664292af7eadb389ae14fd44f881ee4507b942d138163affd802183"
+  },
+  "inputs": {
+    "01_boundaries.csv": "64ab96e7260c03d764ba0bfaf331b9983b6364cb58c6d6cb9d2fc6ea60017167",
+    "01_phase_grid.npz": "4f3e548ff8b4065e8031c814473f6e6a3652ba2e8b7eed61bc44bb5aba463a1e",
+    "01_rates.csv": "40118f9dbe1cd32c0c29a78d35a1e438a3233b9c8ebece029fe052a31ff27f72",
+    "03_endpoints.csv": "4b938d48732aa05bf95a7f6940f1ff0803bb5254ad1147c7c0b91a74b6a399a0"
+  },
+  "outputs": {
+    "fig1_classification.pdf": "038a35beaca23b46eccfffdf2f42ef3a486018f516da1aa05657e75be6135bfb",
+    "fig2_endpoints.pdf": "48dd1c0a5790bb2a3ca5b63118d7bd4c7da492c82071ff12615854871d8edac5"
+  },
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "matplotlib": "3.11.2",
+  "started_utc": "2026-10-13T16:30:26.253197+00:00",
+  "finished_utc": "2026-10-13T16:30:27.775962+00:00",
+  "executable": "G:\\\u79d1\u7814\\wuli\\PHY-PAIR-02\\.venv\\Scripts\\python.exe",
+  "platform": "Windows-11-10.0.26100-SP0",
+  "argv": [
+    "figures/make_manuscript_figures.py"
+  ],
+  "seed": null,
+  "role": "figure_formatting_only_saved_data_unchanged",
+  "wall_seconds": 1.6136391999898478,
+  "process_cpu_seconds": 1.515625,
+  "exit_code": 0
+}

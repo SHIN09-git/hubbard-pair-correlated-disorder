@@ -1,0 +1,66 @@
+{
+  "protocol": "CONFIRMATION_PROTOCOL.md",
+  "workers": 4,
+  "seeds": [
+    100016,
+    100017,
+    100018,
+    100019,
+    100020,
+    100021,
+    100022,
+    100023,
+    100024,
+    100025,
+    100026,
+    100027,
+    100028,
+    100029,
+    100030,
+    100031
+  ],
+  "cases": [
+    {
+      "n": 128,
+      "U": 2.0,
+      "W": 0.04,
+      "f": 0.0,
+      "normalization": "variance"
+    },
+    {
+      "n": 128,
+      "U": 2.0,
+      "W": 0.04,
+      "f": 0.8,
+      "normalization": "variance"
+    },
+    {
+      "n": 128,
+      "U": 2.0,
+      "W": 0.04,
+      "f": 0.8,
+      "normalization": "passband"
+    },
+    {
+      "n": 256,
+      "U": 2.0,
+      "W": 0.04,
+      "f": 0.0,
+      "normalization": "variance"
+    },
+    {
+      "n": 256,
+      "U": 2.0,
+      "W": 0.04,
+      "f": 0.8,
+      "normalization": "variance"
+    },
+    {
+      "n": 256,
+      "U": 2.0,
+      "W": 0.04,
+      "f": 0.8,
+      "normalization": "passband"
+    }
+  ]
+}

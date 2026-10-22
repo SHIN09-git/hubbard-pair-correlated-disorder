@@ -1,0 +1,9 @@
+# Provenance and line endings
+
+Scientific input files were copied byte-for-byte from the frozen v1.5 research delivery. The two manuscript figures and their four input arrays/tables, plus the manuscript's 25-point and three-point resolution checks, were copied from the current English manuscript. The release manifest records the actual bytes in this package. Saved run manifests may contain original host paths; they are historical provenance, not runtime dependencies.
+
+The confirmation protocol delivered on Windows has SHA-256 `39b26818f088e1101c2aabcfd56372f995b0f8c04321e63bbf7aeac4456f0d0e`. Replacing CRLF with LF, without changing any other bytes, gives `ebc46757326c41b62310d1743bbfbcc6fd2670c2fc4121a6361ada262694f594`, exactly the protocol hash in both confirmation run manifests. `CONFIRMATION_PROTOCOL_LF.md` supplies those LF bytes. The original delivered file is also retained; no frozen protocol was edited. Original protocol texts are Chinese; the English README describes the operational interface, and the original texts remain authoritative for the frozen design.
+
+There are 752 confirmation trajectories and 48 auxiliary leakage trajectories, stored as observable time series, not full wave functions. Recalculating the same seeds does not create independent samples. This revision does not change the observations, masks, model, estimator or fitting windows. Historical source-hash dictionaries can mention ancillary scripts from the original working directory; the reproduction commands here use the explicitly supplied current scientific source files.
+
+The R1 manuscript revision restricts the point-sampled finite-ring derivation to bounded, piecewise-continuous spectra. It does not claim that the existing Fourier-mask code uses spectral-cell averaging. The general L1 closure statement is a property of the displayed integral functional.

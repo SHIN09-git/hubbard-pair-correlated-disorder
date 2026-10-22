@@ -1,0 +1,15 @@
+{
+  "status": "PROPOSED_NOT_RUN_NOT_CONFIRMATION_PROTOCOL",
+  "J": 1.0,
+  "K_over_pi": 0.75,
+  "U": [2.0, 3.5, 5.0],
+  "q0_over_pi": [0.0, 0.8, 0.9, 0.97],
+  "W": [0.02, 0.04, 0.08],
+  "N_sequence": [64, 128, 256],
+  "initial_new_seed_batch": 16,
+  "normalizations": ["fixed_ensemble_variance", "fixed_passband_height"],
+  "observable": "entire_clean_bound_band_population",
+  "time_window": "determine by microscopic-transient and finite-size-convergence diagnostics; freeze before confirmation",
+  "budget_initial_cpu_hours_cap": 10,
+  "warning": "Do not launch a full Cartesian grid. Start selected anchor cases and gate each expansion. No lifetime fit from N48 smoke test."
+}

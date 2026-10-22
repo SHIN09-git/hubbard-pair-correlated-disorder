@@ -1,0 +1,186 @@
+{
+  "status": "PASS",
+  "description": "Independent structure checks; no confirmation trajectories rerun.",
+  "occupation_number_checks": [
+    {
+      "n": 7,
+      "sector_dimensions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "mapping_error": 4.440892098500626e-16,
+      "bound_energy_error": 1.0658141036401503e-14,
+      "source_error": 7.447602459741819e-16,
+      "exchange_error": 5.094743538940082e-16
+    },
+    {
+      "n": 8,
+      "sector_dimensions": [
+        5,
+        4,
+        5,
+        4,
+        5,
+        4,
+        5,
+        4
+      ],
+      "mapping_error": 8.881784197001252e-16,
+      "bound_energy_error": 3.1086244689504383e-15,
+      "source_error": 5.9562715115723526e-15,
+      "exchange_error": 1.7055499153874612e-15
+    },
+    {
+      "n": 9,
+      "sector_dimensions": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "mapping_error": 4.440892098500626e-16,
+      "bound_energy_error": 2.6645352591003757e-15,
+      "source_error": 4.399264919903597e-15,
+      "exchange_error": 1.7686994649217961e-15
+    },
+    {
+      "n": 10,
+      "sector_dimensions": [
+        6,
+        5,
+        6,
+        5,
+        6,
+        5,
+        6,
+        5,
+        6,
+        5
+      ],
+      "mapping_error": 8.881784197001252e-16,
+      "bound_energy_error": 2.6645352591003757e-15,
+      "source_error": 1.375638277024925e-15,
+      "exchange_error": 1.8168061740590956e-15
+    }
+  ],
+  "continuum_completeness": [
+    {
+      "t": 1.3,
+      "U": 0.7,
+      "completeness_error": 3.774758283725532e-15
+    },
+    {
+      "t": 1.3,
+      "U": 3.0,
+      "completeness_error": 2.4424906541753444e-15
+    },
+    {
+      "t": 1.3,
+      "U": 7.0,
+      "completeness_error": 3.219646771412954e-15
+    },
+    {
+      "t": -1.3,
+      "U": 0.7,
+      "completeness_error": 3.774758283725532e-15
+    },
+    {
+      "t": -1.3,
+      "U": 3.0,
+      "completeness_error": 2.3314683517128287e-15
+    },
+    {
+      "t": -1.3,
+      "U": 7.0,
+      "completeness_error": 2.6645352591003757e-15
+    }
+  ],
+  "folding_resolvent": [
+    {
+      "K": 2.4,
+      "U": 0.9,
+      "q": 2.8,
+      "resolvent": 1.6376823278648185,
+      "closed": 1.6376823278648167,
+      "relative_error": 1.0846772961861506e-15,
+      "fold_error": 2.169354592372301e-15
+    },
+    {
+      "K": -2.2,
+      "U": 1.3,
+      "q": -2.9,
+      "resolvent": 1.6933748264396455,
+      "closed": 1.6933748264396424,
+      "relative_error": 1.8357568687178307e-15,
+      "fold_error": 1.0490039249816177e-15
+    },
+    {
+      "K": 1.6,
+      "U": 2.0,
+      "q": -2.2,
+      "resolvent": 2.4710891058274287,
+      "closed": 2.471089105827429,
+      "relative_error": 1.7971396045686585e-16,
+      "fold_error": 5.391418813705976e-16
+    }
+  ],
+  "elastic_hard_edge": [
+    {
+      "time": 100,
+      "full_over_on_shell": 0.9731541347164557,
+      "cutoff_equals_qB_over_on_shell": 0.47517360769092465
+    },
+    {
+      "time": 500,
+      "full_over_on_shell": 0.9947639732830544,
+      "cutoff_equals_qB_over_on_shell": 0.4938449594131813
+    },
+    {
+      "time": 2000,
+      "full_over_on_shell": 0.9986816457265117,
+      "cutoff_equals_qB_over_on_shell": 0.4982183637800236
+    },
+    {
+      "time": 10000,
+      "full_over_on_shell": 0.9997355736158252,
+      "cutoff_equals_qB_over_on_shell": 0.4995877383390209
+    }
+  ],
+  "weak_U_limit": [
+    {
+      "U": 0.08,
+      "white_coefficient": 1.0869949776522894,
+      "limit": 1.082392200292394,
+      "ratio": 1.0042524117955136
+    },
+    {
+      "U": 0.04,
+      "white_coefficient": 1.0835249878607645,
+      "limit": 1.082392200292394,
+      "ratio": 1.0010465592491007
+    },
+    {
+      "U": 0.02,
+      "white_coefficient": 1.082672574747222,
+      "limit": 1.082392200292394,
+      "ratio": 1.0002590322202545
+    }
+  ],
+  "process_cpu_seconds": 0.296875,
+  "wall_seconds": 0.297803399967961,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "source_sha256": {
+    "tools\\audit_core_structure.py": "46b915c741c9ae53f6fd188047b4c8f6969a43fbb7ab8e0dbcd4cf0e7dc69d0d",
+    "src\\physics.py": "16ee9c715c4de191c0dcf03f5ce2803a1a2ff01fe8fbc5e80e063173de03fecc"
+  }
+}

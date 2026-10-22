@@ -1,0 +1,41 @@
+{
+  "started_utc": "2026-10-13T16:16:18.825870+00:00",
+  "role": "exploratory_resolution_check",
+  "seed": null,
+  "selection": "three largest absolute relative errors in the original 25-point run",
+  "argv": [
+    "checks/refine_resolvent.py",
+    "--output",
+    "checks/results/20261014_jpa_refinement"
+  ],
+  "cwd": "G:\\\u79d1\u7814\\wuli\\PHY-PAIR-02\\manuscript_en\\v1_jpa",
+  "inputs": {
+    "checks\\results\\20261014_v1\\summary.json": "bf10f69c87e966887e1f27ece55c28caa8104cc4b8b9be45afccacc708f16e6c",
+    "checks\\refine_resolvent.py": "0eba42c7737f4bf3649d3655674a89552eb9e9f0e7b610ba1a6445534c421cdc",
+    "checks\\verify_manuscript.py": "2884a47df9d84ced265bf3648675a168447cc18c7042405bafbc4370adbd9635"
+  },
+  "config": {
+    "etas": [
+      0.002,
+      0.001,
+      0.0005,
+      0.00025
+    ],
+    "half_chain_lengths": [
+      150000,
+      300000
+    ]
+  },
+  "environment": {
+    "executable": "G:\\\u79d1\u7814\\wuli\\PHY-PAIR-02\\.venv\\Scripts\\python.exe",
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26100-SP0",
+    "numpy": "2.3.5",
+    "scipy": "1.18.1"
+  },
+  "status": "PASS",
+  "finished_utc": "2026-10-13T16:16:19.685208+00:00",
+  "exit_code": 0,
+  "wall_seconds": 0.8099164000013843,
+  "process_cpu_seconds": 0.796875
+}

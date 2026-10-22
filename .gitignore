@@ -1,0 +1,18 @@
+# Local environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+.env
+.env.*
+reproductions/
+/paper/source/main.pdf
+/paper/source/*.aux
+/paper/source/*.log
+/paper/source/*.out
+/paper/source/*.blg
+/paper/source/*.synctex.gz
+/paper/source/*.fls
+/paper/source/*.fdb_latexmk

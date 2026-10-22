@@ -1,0 +1,107 @@
+\providecommand{\newblock}{}
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{{\tt #1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\eprint}[2][]{\url{#2}}
+% Bibliography created with iopart-num v2.1
+% /biblio/bibtex/contrib/iopart-num
+
+\bibitem{Winkler2006}
+Winkler K, Thalhammer G, Lang F, Grimm R, {Hecker Denschlag} J, Daley A~J,
+  Kantian A, B{\"u}chler H~P and Zoller P 2006 {\em Nature\/} {\bf 441}
+  853--856 \urlprefix\url{https://doi.org/10.1038/nature04918}
+
+\bibitem{ValientePetrosyan2008}
+Valiente M and Petrosyan D 2008 {\em J. Phys. B: At. Mol. Opt. Phys.\/} {\bf
+  41} 161002 (\textit{Preprint} \eprint{0805.1812})
+  \urlprefix\url{https://doi.org/10.1088/0953-4075/41/16/161002}
+
+\bibitem{Javanainen2010}
+Javanainen J, Odong O and Sanders J~C 2010 {\em Phys. Rev. A\/} {\bf 81} 043609
+  (\textit{Preprint} \eprint{1004.5118})
+  \urlprefix\url{https://doi.org/10.1103/PhysRevA.81.043609}
+
+\bibitem{MaksimovKolovsky2014}
+Maksimov D~N and Kolovsky A~R 2014 {\em Phys. Rev. A\/} {\bf 89} 063612
+  (\textit{Preprint} \eprint{1311.2762})
+  \urlprefix\url{https://doi.org/10.1103/PhysRevA.89.063612}
+
+\bibitem{Perrin2021}
+Perrin H, Asb{\'o}th J~K, Fuchs J~N and Mosseri R 2021 {\em Phys. Rev. B\/}
+  {\bf 104} 205408 (\textit{Preprint} \eprint{2106.09603})
+  \urlprefix\url{https://doi.org/10.1103/PhysRevB.104.205408}
+
+\bibitem{TurekJohn2003}
+Turek M and John W 2003 {\em Physica E\/} {\bf 18} 530--540 (\textit{Preprint}
+  \eprint{cond-mat/0305350})
+  \urlprefix\url{https://doi.org/10.1016/S1386-9477(03)00267-4}
+
+\bibitem{DufourOrso2012}
+Dufour G and Orso G 2012 {\em Phys. Rev. Lett.\/} {\bf 109} 155306
+  (\textit{Preprint} \eprint{1206.0121})
+  \urlprefix\url{https://doi.org/10.1103/PhysRevLett.109.155306}
+
+\bibitem{IzrailevMakarov2003}
+Izrailev F~M and Makarov N~M 2003 {\em Phys. Rev. B\/} {\bf 67} 113402
+  (\textit{Preprint} \eprint{cond-mat/0209602})
+  \urlprefix\url{https://doi.org/10.1103/PhysRevB.67.113402}
+
+\bibitem{IzrailevMakarov2004}
+Izrailev F~M and Makarov N~M 2004 {\em Appl. Phys. Lett.\/} {\bf 84} 5150--5152
+  (\textit{Preprint} \eprint{cond-mat/0306048})
+  \urlprefix\url{https://doi.org/10.1063/1.1765735}
+
+\bibitem{Lugan2009}
+Lugan P, Aspect A, Sanchez-Palencia L, Delande D, Gr{\'e}maud B, M{\"u}ller C~A
+  and Miniatura C 2009 {\em Phys. Rev. A\/} {\bf 80} 023605 {E}ditorial note:
+  \href{https://doi.org/10.1103/PhysRevA.84.019902}{{\it Phys. Rev. A} {\bf 84}
+  019902 (2011)} (\textit{Preprint} \eprint{0902.0107})
+  \urlprefix\url{https://doi.org/10.1103/PhysRevA.80.023605}
+
+\bibitem{GurevichKenneth2009}
+Gurevich E and Kenneth O 2009 {\em Phys. Rev. A\/} {\bf 79} 063617
+  (\textit{Preprint} \eprint{0901.3125})
+  \urlprefix\url{https://doi.org/10.1103/PhysRevA.79.063617}
+
+\bibitem{Vanoni2026}
+Vanoni C, Karcher J, Rechtsman M~C, Altshuler B~L, Steinhardt P~J and Torquato
+  S 2026 {\em Phys. Rev. Lett.\/} {\bf 136} 150404 (\textit{Preprint}
+  \eprint{2509.13502}) \urlprefix\url{https://doi.org/10.1103/nl7n-bqn4}
+
+\bibitem{Chudnovskiy2012}
+Chudnovskiy A~L, Gangardt D~M and Kamenev A 2012 {\em Phys. Rev. Lett.\/} {\bf
+  108} 085302 (\textit{Preprint} \eprint{1104.5210})
+  \urlprefix\url{https://doi.org/10.1103/PhysRevLett.108.085302}
+
+\bibitem{ZhangBraakKollar2012}
+Zhang J~M, Braak D and Kollar M 2012 {\em Phys. Rev. Lett.\/} {\bf 109} 116405
+  (\textit{Preprint} \eprint{1205.6431})
+  \urlprefix\url{https://doi.org/10.1103/PhysRevLett.109.116405}
+
+\bibitem{Boschi2014}
+{Degli Esposti Boschi} C, Ercolessi E, Ferrari L, Naldesi P, Ortolani F and
+  Taddia L 2014 {\em Phys. Rev. A\/} {\bf 90} 043606 (\textit{Preprint}
+  \eprint{1407.2105})
+  \urlprefix\url{https://doi.org/10.1103/PhysRevA.90.043606}
+
+\bibitem{Bello2017}
+Bello M, Platero G and Kohler S 2017 {\em Phys. Rev. B\/} {\bf 96} 045408
+  (\textit{Preprint} \eprint{1704.00216})
+  \urlprefix\url{https://doi.org/10.1103/PhysRevB.96.045408}
+
+\bibitem{JinZenodo2026}
+Jin H 2026 Data and code for ``{Second-order dissociation of a Hubbard bound
+  pair in a common spatially correlated lattice potential}'' Zenodo, version
+  v1.0 \urlprefix\url{https://doi.org/10.5281/zenodo.23390681}
+
+\bibitem{BulatovKornilovitch2005}
+Bulatov V~L and Kornilovitch P~E 2005 {\em Europhys. Lett.\/} {\bf 71} 352--358
+  (\textit{Preprint} \eprint{cond-mat/0502640})
+  \urlprefix\url{https://doi.org/10.1209/epl/i2005-10102-7}
+
+\bibitem{AlMohyHigham2011}
+Al-Mohy A~H and Higham N~J 2011 {\em SIAM J. Sci. Comput.\/} {\bf 33} 488--511
+  \urlprefix\url{https://doi.org/10.1137/100788860}
+
+\end{thebibliography}

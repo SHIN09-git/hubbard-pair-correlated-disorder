@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "created_utc": "2026-10-13T10:53:51.084353+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.3.5",
+  "platform": "Windows-11-10.0.26100-SP0",
+  "source_sha256": "b7023d7d04f9f0a6d2e948b8c69d72e8ec658cd1075e02ebcacae02763ecf414",
+  "output_sha256": "fb628b1b9dc6f9ee0aabd1ac8349bba3ed06b99c1c52927ccb1b016e7d1aeb17",
+  "wall_seconds": 0.1266067000105977,
+  "process_cpu_seconds": 0.0625,
+  "exit_code": 0
+}

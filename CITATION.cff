@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "Please cite the research manuscript and, when using the data or code, the separate Zenodo data/code archive."
+type: software
+title: "Research materials for: Second-order dissociation of a Hubbard bound pair in a common spatially correlated lattice potential"
+authors:
+  - family-names: JIN
+    given-names: HANZHE
+    affiliation: "Independent Researcher, Chongqing, China"
+    email: jinhanzhe09@gmail.com
+version: 1.0.0
+date-released: "2026-10-22"
+url: "https://github.com/SHIN09-git/hubbard-pair-correlated-disorder"
+repository-code: "https://github.com/SHIN09-git/hubbard-pair-correlated-disorder"
+license: CC-BY-4.0
+preferred-citation:
+  type: unpublished
+  title: "Second-order dissociation of a Hubbard bound pair in a common spatially correlated lattice potential"
+  authors:
+    - family-names: JIN
+      given-names: HANZHE
+  year: 2026
+  url: "https://github.com/SHIN09-git/hubbard-pair-correlated-disorder/blob/main/paper/manuscript.pdf"
+  notes: "Preprint. Supporting data and code: doi:10.5281/zenodo.23390681."

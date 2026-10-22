@@ -1,0 +1,311 @@
+{
+  "protocol": "CONFIRMATION_PROTOCOL.md",
+  "workers": 4,
+  "seeds": [
+    100000,
+    100001,
+    100002,
+    100003,
+    100004,
+    100005,
+    100006,
+    100007,
+    100008,
+    100009,
+    100010,
+    100011,
+    100012,
+    100013,
+    100014,
+    100015
+  ],
+  "cases": [
+    {
+      "n": 64,
+      "U": 2.0,
+      "W": 0.04,
+      "f": 0.0,
+      "normalization": "variance"
+    },
+    {
+      "n": 64,
+      "U": 2.0,
+      "W": 0.04,
+      "f": 0.8,
+      "normalization": "variance"
+    },
+    {
+      "n": 64,
+      "U": 2.0,
+      "W": 0.04,
+      "f": 0.8,
+      "normalization": "passband"
+    },
+    {
+      "n": 128,
+      "U": 2.0,
+      "W": 0.02,
+      "f": 0.0,
+      "normalization": "variance"
+    },
+    {
+      "n": 128,
+      "U": 2.0,
+      "W": 0.02,
+      "f": 0.8,
+      "normalization": "variance"
+    },
+    {
+      "n": 128,
+      "U": 2.0,
+      "W": 0.02,
+      "f": 0.8,
+      "normalization": "passband"
+    },
+    {
+      "n": 128,
+      "U": 2.0,
+      "W": 0.04,
+      "f": 0.0,
+      "normalization": "variance"
+    },
+    {
+      "n": 128,
+      "U": 2.0,
+      "W": 0.04,
+      "f": 0.8,
+      "normalization": "variance"
+    },
+    {
+      "n": 128,
+      "U": 2.0,
+      "W": 0.04,
+      "f": 0.8,
+      "normalization": "passband"
+    },
+    {
+      "n": 256,
+      "U": 2.0,
+      "W": 0.02,
+      "f": 0.0,
+      "normalization": "variance"
+    },
+    {
+      "n": 256,
+      "U": 2.0,
+      "W": 0.02,
+      "f": 0.8,
+      "normalization": "variance"
+    },
+    {
+      "n": 256,
+      "U": 2.0,
+      "W": 0.02,
+      "f": 0.8,
+      "normalization": "passband"
+    },
+    {
+      "n": 256,
+      "U": 2.0,
+      "W": 0.04,
+      "f": 0.0,
+      "normalization": "variance"
+    },
+    {
+      "n": 256,
+      "U": 2.0,
+      "W": 0.04,
+      "f": 0.8,
+      "normalization": "variance"
+    },
+    {
+      "n": 256,
+      "U": 2.0,
+      "W": 0.04,
+      "f": 0.8,
+      "normalization": "passband"
+    },
+    {
+      "n": 256,
+      "U": 2.0,
+      "W": 0.08,
+      "f": 0.0,
+      "normalization": "variance"
+    },
+    {
+      "n": 256,
+      "U": 2.0,
+      "W": 0.08,
+      "f": 0.8,
+      "normalization": "variance"
+    },
+    {
+      "n": 256,
+      "U": 2.0,
+      "W": 0.08,
+      "f": 0.8,
+      "normalization": "passband"
+    },
+    {
+      "n": 64,
+      "U": 3.5,
+      "W": 0.04,
+      "f": 0.0,
+      "normalization": "variance"
+    },
+    {
+      "n": 64,
+      "U": 3.5,
+      "W": 0.04,
+      "f": 0.8,
+      "normalization": "variance"
+    },
+    {
+      "n": 64,
+      "U": 3.5,
+      "W": 0.04,
+      "f": 0.9,
+      "normalization": "variance"
+    },
+    {
+      "n": 64,
+      "U": 3.5,
+      "W": 0.04,
+      "f": 0.97,
+      "normalization": "variance"
+    },
+    {
+      "n": 128,
+      "U": 3.5,
+      "W": 0.04,
+      "f": 0.0,
+      "normalization": "variance"
+    },
+    {
+      "n": 128,
+      "U": 3.5,
+      "W": 0.04,
+      "f": 0.8,
+      "normalization": "variance"
+    },
+    {
+      "n": 128,
+      "U": 3.5,
+      "W": 0.04,
+      "f": 0.9,
+      "normalization": "variance"
+    },
+    {
+      "n": 128,
+      "U": 3.5,
+      "W": 0.04,
+      "f": 0.97,
+      "normalization": "variance"
+    },
+    {
+      "n": 256,
+      "U": 3.5,
+      "W": 0.04,
+      "f": 0.0,
+      "normalization": "variance"
+    },
+    {
+      "n": 256,
+      "U": 3.5,
+      "W": 0.04,
+      "f": 0.8,
+      "normalization": "variance"
+    },
+    {
+      "n": 256,
+      "U": 3.5,
+      "W": 0.04,
+      "f": 0.9,
+      "normalization": "variance"
+    },
+    {
+      "n": 256,
+      "U": 3.5,
+      "W": 0.04,
+      "f": 0.97,
+      "normalization": "variance"
+    },
+    {
+      "n": 256,
+      "U": 3.5,
+      "W": 0.02,
+      "f": 0.0,
+      "normalization": "variance"
+    },
+    {
+      "n": 256,
+      "U": 3.5,
+      "W": 0.02,
+      "f": 0.8,
+      "normalization": "variance"
+    },
+    {
+      "n": 256,
+      "U": 3.5,
+      "W": 0.02,
+      "f": 0.9,
+      "normalization": "variance"
+    },
+    {
+      "n": 256,
+      "U": 3.5,
+      "W": 0.02,
+      "f": 0.97,
+      "normalization": "variance"
+    },
+    {
+      "n": 256,
+      "U": 3.5,
+      "W": 0.04,
+      "f": 0.8,
+      "normalization": "passband"
+    },
+    {
+      "n": 256,
+      "U": 3.5,
+      "W": 0.04,
+      "f": 0.9,
+      "normalization": "passband"
+    },
+    {
+      "n": 256,
+      "U": 3.5,
+      "W": 0.04,
+      "f": 0.97,
+      "normalization": "passband"
+    },
+    {
+      "n": 128,
+      "U": 5.0,
+      "W": 0.04,
+      "f": 0.0,
+      "normalization": "variance"
+    },
+    {
+      "n": 128,
+      "U": 5.0,
+      "W": 0.04,
+      "f": 0.97,
+      "normalization": "variance"
+    },
+    {
+      "n": 256,
+      "U": 5.0,
+      "W": 0.04,
+      "f": 0.0,
+      "normalization": "variance"
+    },
+    {
+      "n": 256,
+      "U": 5.0,
+      "W": 0.04,
+      "f": 0.97,
+      "normalization": "variance"
+    }
+  ]
+}
