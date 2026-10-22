@@ -6,6 +6,8 @@ Research manuscript / preprint, 2026. This is not an accepted journal publicatio
 
 [Preprint DOI: 10.5281/zenodo.23552352](https://doi.org/10.5281/zenodo.23552352) · [Read the paper (PDF)](paper/manuscript.pdf) · [LaTeX source](paper/source/main.tex) · [Evidence and reproduction map](reproducibility/PAPER_TO_FILES.md) · [Archived data and code](https://doi.org/10.5281/zenodo.23390681)
 
+Project closed on 22 October 2026 after completion of the agreed research, manuscript and public-release scope. The [project closeout summary (中文)](CLOSEOUT_SUMMARY_20261022.md) records the main results, public links, reproduction entry points and unresolved questions.
+
 ## What the paper establishes
 
 For two repulsively interacting bosons in a one-dimensional Bose–Hubbard chain, both particles experience the same weak, static, stationary Gaussian potential. The paper derives a closed-form second-order dissociation kernel and uses its positivity and folded momentum support to classify when high-pass disorder closes dissociation or elastic backscattering. It also derives the endpoint powers and the fixed-variance plateau, with explicit proofs and finite-ring numerical checks.
