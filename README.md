@@ -4,7 +4,7 @@
 **JIN HANZHE** — Independent Researcher, Chongqing, China  
 Research manuscript / preprint, 2026. This is not an accepted journal publication.
 
-[Read the paper (PDF)](paper/manuscript.pdf) · [LaTeX source](paper/source/main.tex) · [Evidence and reproduction map](reproducibility/PAPER_TO_FILES.md) · [Archived data and code](https://doi.org/10.5281/zenodo.23390681)
+[Preprint DOI: 10.5281/zenodo.23552352](https://doi.org/10.5281/zenodo.23552352) · [Read the paper (PDF)](paper/manuscript.pdf) · [LaTeX source](paper/source/main.tex) · [Evidence and reproduction map](reproducibility/PAPER_TO_FILES.md) · [Archived data and code](https://doi.org/10.5281/zenodo.23390681)
 
 ## What the paper establishes
 
@@ -44,7 +44,7 @@ The original records specify Python 3.12.14, NumPy 2.3.5, SciPy 1.18.1 and Matpl
 
 ## Citation and licence
 
-For the research manuscript, cite JIN HANZHE (2026), *Second-order dissociation of a Hubbard bound pair in a common spatially correlated lattice potential*, preprint, this repository. [`CITATION.cff`](CITATION.cff) supplies machine-readable author and version information. The data/code archive has its own identifier and should be cited separately: [10.5281/zenodo.23390681](https://doi.org/10.5281/zenodo.23390681).
+For the research manuscript, cite JIN HANZHE (2026), *Second-order dissociation of a Hubbard bound pair in a common spatially correlated lattice potential*, Zenodo preprint, version 1.0, [10.5281/zenodo.23552352](https://doi.org/10.5281/zenodo.23552352). [`CITATION.cff`](CITATION.cff) supplies machine-readable author and version information. The data/code archive has its own identifier and should be cited separately: [10.5281/zenodo.23390681](https://doi.org/10.5281/zenodo.23390681).
 
 The manuscript and original repository materials are available under [CC BY 4.0](LICENSE.md). Third-party software dependencies retain their own licences.
 

@@ -19,5 +19,6 @@ preferred-citation:
     - family-names: JIN
       given-names: HANZHE
   year: 2026
-  url: "https://github.com/SHIN09-git/hubbard-pair-correlated-disorder/blob/main/paper/manuscript.pdf"
+  doi: "10.5281/zenodo.23552352"
+  url: "https://doi.org/10.5281/zenodo.23552352"
   notes: "Preprint. Supporting data and code: doi:10.5281/zenodo.23390681."
